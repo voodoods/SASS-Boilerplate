@@ -1,0 +1,31 @@
+/* ### begin: STYLES SCSS - Main File ### */
+
+/* ########################################
+SASS BOILERPLATE Copyright by Norman Steger
+########################################### 
+Github @voodoods 
+Twitter @VoodooDS 
+*/
+
+// SASS specific files
+@import 'variables';
+@import 'mixins';
+
+// responsive design global media queries
+@import 'responsive-mediaqueries';
+
+// browser style resets and project specific webfonts
+@import 'normalize';
+@import 'webfonts';
+
+// basic element styles and global project styles
+@import 'elements';
+@import 'globals';
+
+// @import 'specific' project partials here...
+
+// responsive design partials 
+@import 'responsive-smartphone';
+@import 'responsive-tablet';
+
+/* ### end: STYLES SCSS - Main File ### */

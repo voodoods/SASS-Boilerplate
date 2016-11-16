@@ -1,0 +1,20 @@
+/* ### begin: RESPONSIVE MEDIA QUERIES SCSS - style.scss partial ### */
+
+// Media Queries taken from Twitter Bootstrap v4 alpha 5 twbs@github https://github.com/twbs/bootstrap released under the MIT License (MIT)
+
+// Copyright (c) 2011-2016 Twitter, Inc.
+// Copyright (c) 2011-2016 The Bootstrap Authors
+
+// Extra small devices (portrait phones, less than 544px)
+$smartphoneXS: "(max-width: 543px)";
+
+// Small devices (landscape phones, less than 768px)
+$smartphoneXL: "(max-width: 767px)";
+
+// Medium devices (tablets, less than 992px)
+$tabletXS: "(max-width: 991px)";
+
+// Large devices (desktops, less than 1200px)
+$tabletXL: "(max-width: 1199px)";
+
+/* ### end: RESPONSIVE MEDIA QUERIES SCSS - style.scss partial ### */

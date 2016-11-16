@@ -1,0 +1,19 @@
+/* ### begin: RESPONSIVE SMARTPHONE SCSS - style.scss partial ### */
+
+@media #{$smartphoneXS} {
+    // small smartphone styles here
+}
+
+@media #{$smartphoneXL} {
+    // big smartphone styles here
+}
+
+@media #{$smartphoneXS} and (orientation:landscape) {
+    // small smartphone landscape only styles
+}
+
+@media #{$smartphoneXL} and (orientation:landscape) {
+    // big smartphone landscape only styles
+}
+
+/* ### end: RESPONSIVE SMARTPHONE SCSS - style.scss partial ### */

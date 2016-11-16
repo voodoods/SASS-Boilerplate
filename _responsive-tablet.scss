@@ -1,0 +1,20 @@
+/* ### begin: RESPONSIVE TABLET SCSS - style.scss partial ### */
+
+@media #{$tabletXS} {
+    // small smartphone styles here
+}
+
+@media #{$tabletXL} {
+    // big smartphone styles here
+}
+
+@media #{$tabletXS} and (orientation:landscape) {
+    // small smartphone landscape only styles
+}
+
+@media #{$tabletXL} and (orientation:landscape) {
+    // big smartphone landscape only styles
+}
+
+
+/* ### end: RESPONSIVE TABLET SCSS - style.scss partial ### */

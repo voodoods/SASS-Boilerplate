@@ -1,0 +1,35 @@
+/* ### begin: MIXINS SCSS - style.scss partial ### */
+
+// border radius
+@mixin borderRadius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+}
+
+// background gradient
+@mixin gradientHorizontal($colorFrom, $colorTo) {
+    background: $colorFrom; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($colorFrom, $colorTo); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($colorFrom, $colorTo); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($colorFrom, $colorTo); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($colorFrom, $colorTo); /* Standard syntax */
+}
+
+@mixin gradientVertical($colorFrom, $colorTo) {
+    background: $colorFrom; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, $colorFrom , $colorTo); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, $colorFrom, $colorTo); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, $colorFrom, $colorTo); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, $colorFrom , $colorTo); /* Standard syntax */
+}
+
+// reset margins and paddings
+@mixin mp-reset() {
+    margin:0;
+    padding:0;
+}
+
+/* ### end: MIXINS SCSS - style.scss partial ### */
